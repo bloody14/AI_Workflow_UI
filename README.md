@@ -128,13 +128,13 @@ lib/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/bloody14/AI_Workflow_UI.git
 ```
 
 Go into the project
 
 ```bash
-cd project-name
+cd AI_Workflow_UI
 ```
 
 Install dependencies
