@@ -1,4 +1,6 @@
-# AI Workflow Landing Page
+# Armory — AI Integration Platform Landing Page
+
+🔗 **Live Demo:** https://ai-workflow-ui-iz58.vercel.app/
 
 A modern AI-themed landing page built with **Next.js 14**, **React**, and **Tailwind CSS**.
 
