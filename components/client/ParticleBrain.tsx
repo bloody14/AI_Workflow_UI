@@ -119,8 +119,8 @@ function BrainMesh() {
     <group>
       <points ref={meshRef}>
         <bufferGeometry>
-          <bufferAttribute attach="attributes-position" count={positions.length / 3} array={positions} itemSize={3} />
-          <bufferAttribute attach="attributes-color" count={colors.length / 3} array={colors} itemSize={3} />
+          <bufferAttribute attach="attributes-position" count={positions.length / 3} args={[positions, 3]} />
+          <bufferAttribute attach="attributes-color" count={colors.length / 3} args={[colors, 3]} />
         </bufferGeometry>
         <pointsMaterial size={0.025} vertexColors={true} transparent={true} opacity={hoveredZone ? 1.0 : 0.4} sizeAttenuation={true} />
       </points>
