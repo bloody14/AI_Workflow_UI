@@ -94,7 +94,7 @@ export function OperationsDashboard() {
                   style={{ transformOrigin: "100px 90px" }}
                 >
                   <polygon points="96,90 104,90 100,20" fill="rgba(255,255,255,0.9)" />
-                  <circle cx="100" cy="90" r="8" fill="#ffffff" style={{ filter: 'drop-shadow(0 0 10px rgba(0,0,0,0.5))' }} />
+                  <circle cx="100" cy="90" r="8" fill="#ffffff" style={{ filter: "drop-shadow(0px 0px 10px rgba(0,0,0,0.5))" }} />
                 </motion.g>
               </svg>
               {/* Center Stats */}
